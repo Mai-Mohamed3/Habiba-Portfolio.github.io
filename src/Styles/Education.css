@@ -1,0 +1,77 @@
+.education-section {
+    padding: 50px 0;
+    background-color: rgb(249, 251, 253);
+    text-align: center;
+  }
+  
+  .education{
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .education h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+   
+}
+  
+  .education-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .education-card {
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .education-year {
+    font-size: 19px;
+    font-weight: bold;
+    color: #666;
+  }
+
+span.single-timeline-horizontal {
+    display: inline-block;
+    height: 1px;
+    width: 380px;
+    background: rgb(178, 193, 206);
+    
+}
+  .education-degree {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(99, 106, 130);
+    margin-top: 14px;
+  }
+  
+  .education-university {
+    font-size: 17px;
+    color: #444;
+  }
+  
+  .education-description {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  .timeline-horizontal-border {
+    display: flex;
+    align-items: center;
+    padding: 26px 0px 30px;
+}
+.timeline-horizontal-border i {
+    font-size: 10px;
+    color: rgb(217, 44, 249);
+    margin-right: 5px;
+}
+  

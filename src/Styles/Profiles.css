@@ -1,0 +1,63 @@
+.profiles-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: rgb(249, 251, 253);
+  }
+  
+.profiles{
+    padding-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+.profiles h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(206, 206, 206);
+   
+}
+  
+  .profiles-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .profile-card {
+    background: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .profile-card .icon {
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .profile-card span {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .profile-card:hover {
+    background: #9b59b6;
+    color: white;
+    border-color: #9b59b6;
+  }
+  
+  .profile-card:hover .icon {
+    color: white;
+  }
+  
