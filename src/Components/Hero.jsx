@@ -42,7 +42,7 @@ const images = [bg1];
           repeat={Infinity} 
         />
         </p>    
-        <a href="./public/cv.pdf" className="btn" download>Download Resume</a>
+        <a href="/cv.pdf" className="btn" download>Download Resume</a>
         </div>
     </section>
     
